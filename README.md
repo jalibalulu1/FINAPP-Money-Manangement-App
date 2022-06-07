@@ -1,4 +1,4 @@
-# bhandaram
+# FINAPP
 
 A new Flutter project.
 
