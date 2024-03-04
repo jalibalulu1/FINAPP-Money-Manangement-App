@@ -67,7 +67,7 @@ class _TransactionHistoryState extends State<TransactionHistory> {
 
                                           Navigator.of(context).pop();
                                           // ignore: deprecated_member_use
-                                          Scaffold.of(context).showSnackBar(
+                                          
                                               const SnackBar(
                                                   duration:
                                                       Duration(seconds: 1),
@@ -83,7 +83,7 @@ class _TransactionHistoryState extends State<TransactionHistory> {
                                                           color: Colors.white,
                                                           fontSize: 17),
                                                     ),
-                                                  )));
+                                                  ));
                                         });
                                       },
                                       child: const Text("OK")),

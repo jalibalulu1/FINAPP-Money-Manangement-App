@@ -50,13 +50,13 @@ class _ExpenseCategoryListState extends State<ExpenseCategoryList> {
                        
                           Navigator.of(context).pop();
                                   // ignore: deprecated_member_use
-                      Scaffold.of(context).showSnackBar(const SnackBar(
+                      const SnackBar(
                         duration: Duration(seconds: 1),
                        backgroundColor: Color.fromARGB(255, 238, 93, 83),
                           content: Padding(
                             padding: EdgeInsets.all(10.0),
                             child: Text("You have deleted this category",style: TextStyle(color: Colors.white,fontSize: 17),),
-                          )));
+                          ));
                       });            
                           }, child: const Text("OK")),
                           TextButton(onPressed:(){
